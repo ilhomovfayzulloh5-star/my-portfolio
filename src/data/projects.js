@@ -1,0 +1,113 @@
+export const projects = [
+  {
+    id: 'tarjima-bot',
+    name: 'Tarjima Bot',
+    category: 'Telegram Botlar',
+    type: 'story',
+    description: "Telegram uchun ko'p tilli tarjima boti. Matnlarni bir tildan boshqa tilga real vaqtda tarjima qiladi. SQLite ma'lumotlar bazasi bilan ishlaydi.",
+    tags: ['Node.js', 'Telegram', 'SQLite'],
+    tagClasses: ['node', 'telegram', 'node'],
+    icon: '🌍',
+    gradient: 'linear-gradient(135deg, #667eea, #764ba2)',
+    props: [
+      { name: 'platform', type: 'string', value: 'Telegram' },
+      { name: 'language', type: 'string', value: 'JavaScript (Node.js)' },
+      { name: 'database', type: 'string', value: 'SQLite' },
+      { name: 'status', type: 'enum', value: 'Active ✅' },
+    ],
+  },
+  {
+    id: 'recipe-bot',
+    name: 'Recipe Bot',
+    category: 'Telegram Botlar',
+    type: 'story',
+    description: "Oshpazlik retseptlari boti. 1000+ retseptlar bazasi, qidiruv va kategoriyalar bo'yicha filtrlash. Foydalanuvchilar sevimli retseptlarini saqlashi mumkin.",
+    tags: ['Node.js', 'Telegram', 'JavaScript'],
+    tagClasses: ['node', 'telegram', 'js'],
+    icon: '🍳',
+    gradient: 'linear-gradient(135deg, #f093fb, #f5576c)',
+    props: [
+      { name: 'platform', type: 'string', value: 'Telegram' },
+      { name: 'language', type: 'string', value: 'JavaScript (Node.js)' },
+      { name: 'recipes', type: 'number', value: '1000+' },
+      { name: 'status', type: 'enum', value: 'Active ✅' },
+    ],
+  },
+  {
+    id: 'math-bot',
+    name: 'Math Bot',
+    category: 'Telegram Botlar',
+    type: 'story',
+    description: "Matematika o'rganish boti. Interaktiv mashqlar, testlar va natijalarni kuzatish. Turli qiyinlik darajalari mavjud.",
+    tags: ['Node.js', 'Telegram', 'SQLite'],
+    tagClasses: ['node', 'telegram', 'node'],
+    icon: '🔢',
+    gradient: 'linear-gradient(135deg, #4facfe, #00f2fe)',
+    props: [
+      { name: 'platform', type: 'string', value: 'Telegram' },
+      { name: 'language', type: 'string', value: 'JavaScript (Node.js)' },
+      { name: 'database', type: 'string', value: 'SQLite' },
+      { name: 'status', type: 'enum', value: 'Active ✅' },
+    ],
+  },
+  {
+    id: 'portfolio-site',
+    name: 'Portfolio Website',
+    category: 'Web Loyihalar',
+    type: 'story',
+    description: "Storybook/Chromatic uslubida yaratilgan shaxsiy portfolio veb-sayt. React va Vite texnologiyalari asosida qurilgan.",
+    tags: ['React', 'CSS', 'JavaScript'],
+    tagClasses: ['react', 'css', 'js'],
+    icon: '🎨',
+    gradient: 'linear-gradient(135deg, #FF4785, #FC521F)',
+    props: [
+      { name: 'framework', type: 'string', value: 'React + Vite' },
+      { name: 'language', type: 'string', value: 'JavaScript' },
+      { name: 'styling', type: 'string', value: 'Vanilla CSS' },
+      { name: 'status', type: 'enum', value: 'Active ✅' },
+    ],
+  },
+  {
+    id: 'landing-page',
+    name: 'Landing Page',
+    category: 'Web Loyihalar',
+    type: 'story',
+    description: "Zamonaviy landing page. Responsive dizayn, animatsiyalar va tez yuklanish. SEO optimizatsiya qilingan.",
+    tags: ['HTML', 'CSS', 'JavaScript'],
+    tagClasses: ['html', 'css', 'js'],
+    icon: '🚀',
+    gradient: 'linear-gradient(135deg, #a18cd1, #fbc2eb)',
+    props: [
+      { name: 'type', type: 'string', value: 'Static Website' },
+      { name: 'language', type: 'string', value: 'HTML/CSS/JS' },
+      { name: 'responsive', type: 'boolean', value: 'true' },
+      { name: 'status', type: 'enum', value: 'Completed ✅' },
+    ],
+  },
+];
+
+export const categories = [
+  { id: 'telegram-bots', name: 'Telegram Botlar', icon: '🤖' },
+  { id: 'web-projects', name: 'Web Loyihalar', icon: '🌐' },
+];
+
+export const skills = [
+  { icon: '⚛️', name: 'React', level: 'Intermediate' },
+  { icon: '📦', name: 'Node.js', level: 'Advanced' },
+  { icon: '🟨', name: 'JavaScript', level: 'Advanced' },
+  { icon: '🐍', name: 'Python', level: 'Intermediate' },
+  { icon: '🎨', name: 'CSS', level: 'Advanced' },
+  { icon: '📱', name: 'Telegram API', level: 'Advanced' },
+  { icon: '🗄️', name: 'SQLite', level: 'Intermediate' },
+  { icon: '🔧', name: 'Git', level: 'Intermediate' },
+  { icon: '⚡', name: 'Vite', level: 'Intermediate' },
+  { icon: '🌐', name: 'HTML', level: 'Advanced' },
+];
+
+export const aboutInfo = {
+  name: 'Fayzulloh',
+  title: 'Full Stack Developer',
+  bio: "Men dasturchi sifatida turli loyihalar ustida ishlayman. Asosan Telegram botlar va veb-saytlar yarataman. Node.js, React va Python texnologiyalarida tajribam bor. Har doim yangi narsalarni o'rganishga tayyorman.",
+  location: "O'zbekiston",
+  experience: '2+ yil',
+};
