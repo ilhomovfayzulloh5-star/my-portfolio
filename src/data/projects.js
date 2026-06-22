@@ -1,5 +1,22 @@
 export const projects = [
   {
+    id: 'kun-tartibi-bot',
+    name: 'Kun Tartibi Bot',
+    category: 'Telegram Botlar',
+    type: 'story',
+    description: "Kundalik rejani boshqarish boti. Kun tartibini ko'rsatadi, eslatmalar yuboradi va vazifalarni kuzatib boradi. Samarali kun o'tkazishga yordam beradi.",
+    tags: ['Node.js', 'Telegram', 'JavaScript'],
+    tagClasses: ['node', 'telegram', 'js'],
+    icon: '📅',
+    gradient: 'linear-gradient(135deg, #43e97b, #38f9d7)',
+    props: [
+      { name: 'platform', type: 'string', value: 'Telegram' },
+      { name: 'language', type: 'string', value: 'JavaScript (Node.js)' },
+      { name: 'feature', type: 'string', value: 'Kun tartibi & eslatmalar' },
+      { name: 'status', type: 'enum', value: 'Yangi ✨' },
+    ],
+  },
+  {
     id: 'tarjima-bot',
     name: 'Tarjima Bot',
     category: 'Telegram Botlar',
