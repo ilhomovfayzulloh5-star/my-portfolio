@@ -99,6 +99,7 @@ export const projects = [
     tagClasses: ['node', 'js', 'css'],
     icon: '🐾',
     gradient: 'linear-gradient(135deg, #f5af19, #f12711)',
+    botLink: 'https://ilhomovfayzulloh5-star.github.io/pawpal-pet-care/',
     props: [
       { name: 'type', type: 'string', value: 'Pet Care App' },
       { name: 'language', type: 'string', value: 'JavaScript (Node.js)' },
@@ -116,6 +117,7 @@ export const projects = [
     tagClasses: ['react', 'js', 'css'],
     icon: '⚡',
     gradient: 'linear-gradient(135deg, #1a1a2e, #e94560)',
+    botLink: 'https://ilhomovfayzulloh5-star.github.io/harry-potter-quiz/',
     props: [
       { name: 'type', type: 'string', value: 'Quiz App' },
       { name: 'language', type: 'string', value: 'React' },
