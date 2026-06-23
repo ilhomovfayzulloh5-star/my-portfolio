@@ -15,6 +15,17 @@ export default function ProjectCard({ project }) {
             </span>
           ))}
         </div>
+        {project.botLink && (
+          <a
+            href={project.botLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-primary"
+            style={{ marginTop: '20px', fontSize: '13px', height: '40px' }}
+          >
+            🤖 Botni sinab ko'ring
+          </a>
+        )}
       </div>
     </div>
   );

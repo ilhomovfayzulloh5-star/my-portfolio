@@ -9,6 +9,7 @@ export const projects = [
     tagClasses: ['node', 'telegram', 'js'],
     icon: '📅',
     gradient: 'linear-gradient(135deg, #43e97b, #38f9d7)',
+    botLink: 'https://t.me/acuroutine_bot',
     props: [
       { name: 'platform', type: 'string', value: 'Telegram' },
       { name: 'language', type: 'string', value: 'JavaScript (Node.js)' },
@@ -26,6 +27,7 @@ export const projects = [
     tagClasses: ['node', 'telegram', 'node'],
     icon: '🌍',
     gradient: 'linear-gradient(135deg, #667eea, #764ba2)',
+    botLink: 'https://t.me/Tarjima2_bot',
     props: [
       { name: 'platform', type: 'string', value: 'Telegram' },
       { name: 'language', type: 'string', value: 'JavaScript (Node.js)' },
