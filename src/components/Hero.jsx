@@ -27,7 +27,7 @@ export default function Hero({ onNavigate }) {
 
       <div className="hero-stats">
         <div className="hero-stat">
-          <div className="hero-stat-value">5+</div>
+          <div className="hero-stat-value">9+</div>
           <div className="hero-stat-label">Loyihalar</div>
         </div>
         <div className="hero-stat">

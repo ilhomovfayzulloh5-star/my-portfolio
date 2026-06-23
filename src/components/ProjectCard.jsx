@@ -23,7 +23,7 @@ export default function ProjectCard({ project }) {
             className="btn btn-primary"
             style={{ marginTop: '20px', fontSize: '13px', height: '40px' }}
           >
-            🤖 Botni sinab ko'ring
+            {project.category === 'Telegram Botlar' ? '🤖 Botni sinab ko\'ring' : '🌐 Saytni ko\'rish'}
           </a>
         )}
       </div>
