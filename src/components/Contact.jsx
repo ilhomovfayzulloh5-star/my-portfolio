@@ -14,8 +14,8 @@ export default function Contact() {
   return (
     <div className="contact-section">
       <div className="contact-card">
-        <h2 className="contact-title">📬 Aloqa</h2>
-        <p className="contact-subtitle">Men bilan bog'lanishingiz mumkin</p>
+        <h2 className="contact-title">📬 Contact</h2>
+        <p className="contact-subtitle">Feel free to reach out to me</p>
 
         <div className="contact-links">
           <a href="https://t.me/fayzulloh_ilhomov" className="contact-link" target="_blank" rel="noopener noreferrer">
@@ -29,17 +29,17 @@ export default function Contact() {
         </div>
 
         <h3 style={{ fontSize: '18px', fontWeight: 700, marginBottom: '16px', color: 'var(--text-primary)' }}>
-          Xabar yuborish
+          Send a Message
         </h3>
 
         <form className="contact-form" onSubmit={handleSubmit}>
           <div className="contact-form-group">
-            <label className="contact-form-label" htmlFor="contact-name">Ism</label>
+            <label className="contact-form-label" htmlFor="contact-name">Name</label>
             <input
               id="contact-name"
               className="contact-form-input"
               type="text"
-              placeholder="Ismingiz"
+              placeholder="Your name"
               value={formData.name}
               onChange={(e) => setFormData(prev => ({ ...prev, name: e.target.value }))}
               required
@@ -58,18 +58,18 @@ export default function Contact() {
             />
           </div>
           <div className="contact-form-group">
-            <label className="contact-form-label" htmlFor="contact-message">Xabar</label>
+            <label className="contact-form-label" htmlFor="contact-message">Message</label>
             <textarea
               id="contact-message"
               className="contact-form-textarea"
-              placeholder="Xabaringizni yozing..."
+              placeholder="Write your message..."
               value={formData.message}
               onChange={(e) => setFormData(prev => ({ ...prev, message: e.target.value }))}
               required
             />
           </div>
           <button type="submit" className="btn btn-primary" style={{ alignSelf: 'flex-start' }}>
-            {sent ? '✅ Yuborildi!' : '📤 Yuborish'}
+            {sent ? '✅ Sent!' : '📤 Send'}
           </button>
         </form>
       </div>

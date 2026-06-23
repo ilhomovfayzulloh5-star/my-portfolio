@@ -34,8 +34,8 @@ export default function Sidebar({ activePage, onNavigate, isOpen, onClose }) {
     setOpenGroups(prev => ({ ...prev, [groupId]: !prev[groupId] }));
   };
 
-  const telegramBots = projects.filter(p => p.category === 'Telegram Botlar');
-  const webProjects = projects.filter(p => p.category === 'Web Loyihalar');
+  const telegramBots = projects.filter(p => p.category === 'Telegram Bots');
+  const webProjects = projects.filter(p => p.category === 'Web Projects');
 
   const filterProjects = (list) => {
     if (!searchQuery) return list;
@@ -65,7 +65,7 @@ export default function Sidebar({ activePage, onNavigate, isOpen, onClose }) {
         <input
           type="text"
           className="sidebar-search-input"
-          placeholder="Qidiruv..."
+          placeholder="Search..."
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
         />
@@ -77,16 +77,16 @@ export default function Sidebar({ activePage, onNavigate, isOpen, onClose }) {
           onClick={() => handleItemClick('home')}
         >
           <DocsIcon />
-          <span>Bosh sahifa</span>
+          <span>Home</span>
         </button>
 
-        <div className="sidebar-section-title">Loyihalar</div>
+        <div className="sidebar-section-title">Projects</div>
 
         <div className="sidebar-group">
           <button className="sidebar-group-header" onClick={() => toggleGroup('telegram-bots')}>
             <ChevronIcon open={openGroups['telegram-bots']} />
             <ComponentIcon />
-            <span>Telegram Botlar</span>
+            <span>Telegram Bots</span>
           </button>
           {openGroups['telegram-bots'] && filterProjects(telegramBots).map(project => (
             <button
@@ -104,7 +104,7 @@ export default function Sidebar({ activePage, onNavigate, isOpen, onClose }) {
           <button className="sidebar-group-header" onClick={() => toggleGroup('web-projects')}>
             <ChevronIcon open={openGroups['web-projects']} />
             <ComponentIcon />
-            <span>Web Loyihalar</span>
+            <span>Web Projects</span>
           </button>
           {openGroups['web-projects'] && filterProjects(webProjects).map(project => (
             <button
@@ -118,20 +118,20 @@ export default function Sidebar({ activePage, onNavigate, isOpen, onClose }) {
           ))}
         </div>
 
-        <div className="sidebar-section-title">Sahifalar</div>
+        <div className="sidebar-section-title">Pages</div>
         <button
           className={`sidebar-item ${activePage === 'about' ? 'active' : ''}`}
           onClick={() => handleItemClick('about')}
         >
           <DocsIcon />
-          <span>Haqimda</span>
+          <span>About Me</span>
         </button>
         <button
           className={`sidebar-item ${activePage === 'contact' ? 'active' : ''}`}
           onClick={() => handleItemClick('contact')}
         >
           <DocsIcon />
-          <span>Aloqa</span>
+          <span>Contact</span>
         </button>
       </nav>
     </aside>

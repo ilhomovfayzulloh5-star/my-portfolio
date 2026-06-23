@@ -1,10 +1,10 @@
 export const projects = [
   {
     id: 'kun-tartibi-bot',
-    name: 'Kun Tartibi Bot',
-    category: 'Telegram Botlar',
+    name: 'Daily Routine Bot',
+    category: 'Telegram Bots',
     type: 'story',
-    description: "Kundalik rejani boshqarish boti. Kun tartibini ko'rsatadi, eslatmalar yuboradi va vazifalarni kuzatib boradi. Samarali kun o'tkazishga yordam beradi.",
+    description: "A smart daily planner bot for Telegram. Manage your schedule, set reminders, and track tasks — all from one chat. Stay productive every day!",
     tags: ['Node.js', 'Telegram', 'JavaScript'],
     tagClasses: ['node', 'telegram', 'js'],
     icon: '📅',
@@ -13,16 +13,16 @@ export const projects = [
     props: [
       { name: 'platform', type: 'string', value: 'Telegram' },
       { name: 'language', type: 'string', value: 'JavaScript (Node.js)' },
-      { name: 'feature', type: 'string', value: 'Kun tartibi & eslatmalar' },
-      { name: 'status', type: 'enum', value: 'Yangi ✨' },
+      { name: 'feature', type: 'string', value: 'Schedule & Reminders' },
+      { name: 'status', type: 'enum', value: 'New ✨' },
     ],
   },
   {
     id: 'tarjima-bot',
-    name: 'Tarjima Bot',
-    category: 'Telegram Botlar',
+    name: 'Translation Bot',
+    category: 'Telegram Bots',
     type: 'story',
-    description: "Telegram uchun ko'p tilli tarjima boti. Matnlarni bir tildan boshqa tilga real vaqtda tarjima qiladi. SQLite ma'lumotlar bazasi bilan ishlaydi.",
+    description: "Real-time multilingual translation bot for Telegram. Translate text between languages instantly. Powered by SQLite database for fast responses.",
     tags: ['Node.js', 'Telegram', 'SQLite'],
     tagClasses: ['node', 'telegram', 'node'],
     icon: '🌍',
@@ -38,9 +38,9 @@ export const projects = [
   {
     id: 'recipe-bot',
     name: 'Recipe Bot',
-    category: 'Telegram Botlar',
+    category: 'Telegram Bots',
     type: 'story',
-    description: "Oshpazlik retseptlari boti. 300+ retseptlar bazasi, qidiruv va kategoriyalar bo'yicha filtrlash. Foydalanuvchilar sevimli retseptlarini saqlashi mumkin.",
+    description: "Your personal cooking assistant on Telegram! Browse 300+ recipes, search by category, and save your favorites. Perfect for discovering new dishes.",
     tags: ['Node.js', 'Telegram', 'JavaScript'],
     tagClasses: ['node', 'telegram', 'js'],
     icon: '🍳',
@@ -56,9 +56,9 @@ export const projects = [
   {
     id: 'random-idea',
     name: 'Random Idea Generator',
-    category: 'Web Loyihalar',
+    category: 'Web Projects',
     type: 'story',
-    description: "Tasodifiy g'oyalar generatori — nima ko'rish, o'ynash, pishirish yoki nima bilan shug'ullanish kerakligini bir tugma bilan aniqlang!",
+    description: "Stuck in a rut? Hit the button and get a random idea — what to watch, play, cook, or do. Features particle animations and confetti effects!",
     tags: ['HTML', 'CSS', 'JavaScript'],
     tagClasses: ['html', 'css', 'js'],
     icon: '💡',
@@ -74,9 +74,9 @@ export const projects = [
   {
     id: 'english-quiz',
     name: 'English Quiz',
-    category: 'Web Loyihalar',
+    category: 'Web Projects',
     type: 'story',
-    description: "Ingliz tili bilimingizni sinab ko'ring! Grammatika, so'z boyligi va iboralar bo'yicha interaktiv test. 10 ta savol bilan o'z darajangizni bilib oling.",
+    description: "Test your English skills! An interactive quiz covering grammar, vocabulary, and expressions. 10+ questions to challenge your knowledge level.",
     tags: ['HTML', 'CSS', 'JavaScript'],
     tagClasses: ['html', 'css', 'js'],
     icon: '🇬🇧',
@@ -92,9 +92,9 @@ export const projects = [
   {
     id: 'pawpal',
     name: 'PawPal',
-    category: 'Web Loyihalar',
+    category: 'Web Projects',
     type: 'story',
-    description: "Uy hayvonlari uchun eng yaqin do'st! 🐾 PawPal — uy hayvonlaringizni ro'yxatga olish, ovqatlanish jadvalini kuzatish va veterinar tashriflarini rejalashtirish uchun qulay veb-ilova.",
+    description: "Your pet's best friend! 🐾 PawPal lets you register pets, track feeding schedules, and plan vet visits — all in one beautiful web app.",
     tags: ['Node.js', 'JavaScript', 'CSS'],
     tagClasses: ['node', 'js', 'css'],
     icon: '🐾',
@@ -102,16 +102,16 @@ export const projects = [
     props: [
       { name: 'type', type: 'string', value: 'Pet Care App' },
       { name: 'language', type: 'string', value: 'JavaScript (Node.js)' },
-      { name: 'feature', type: 'string', value: 'Hayvonlar boshqaruvi' },
-      { name: 'status', type: 'enum', value: 'Ishlab chiqilmoqda 🔧' },
+      { name: 'feature', type: 'string', value: 'Pet Management' },
+      { name: 'status', type: 'enum', value: 'In Development 🔧' },
     ],
   },
   {
     id: 'harry-potter-quiz',
     name: 'Harry Potter Quiz',
-    category: 'Web Loyihalar',
+    category: 'Web Projects',
     type: 'story',
-    description: "⚡ Sehrgarlik dunyosiga xush kelibsiz! Hogwarts, sehrli afsunlar va qahramonlar haqidagi bilimingizni sinab ko'ring. Qaysi uyga tegishlisiz — Gryffindor, Slytherin, Hufflepuff yoki Ravenclaw?",
+    description: "⚡ Welcome to the Wizarding World! Test your knowledge of Hogwarts, spells, and characters. Which house do you belong to — Gryffindor, Slytherin, Hufflepuff, or Ravenclaw?",
     tags: ['React', 'JavaScript', 'CSS'],
     tagClasses: ['react', 'js', 'css'],
     icon: '⚡',
@@ -120,14 +120,14 @@ export const projects = [
       { name: 'type', type: 'string', value: 'Quiz App' },
       { name: 'language', type: 'string', value: 'React' },
       { name: 'theme', type: 'string', value: 'Harry Potter ⚡' },
-      { name: 'status', type: 'enum', value: 'Ishlab chiqilmoqda 🔧' },
+      { name: 'status', type: 'enum', value: 'In Development 🔧' },
     ],
   },
 ];
 
 export const categories = [
-  { id: 'telegram-bots', name: 'Telegram Botlar', icon: '🤖' },
-  { id: 'web-projects', name: 'Web Loyihalar', icon: '🌐' },
+  { id: 'telegram-bots', name: 'Telegram Bots', icon: '🤖' },
+  { id: 'web-projects', name: 'Web Projects', icon: '🌐' },
 ];
 
 export const skills = [
@@ -146,7 +146,7 @@ export const skills = [
 export const aboutInfo = {
   name: 'Fayzulloh',
   title: 'Full Stack Developer',
-  bio: "Men dasturchi sifatida turli loyihalar ustida ishlayman. Asosan Telegram botlar va veb-saytlar yarataman. Node.js, React va Python texnologiyalarida tajribam bor. Har doim yangi narsalarni o'rganishga tayyorman.",
-  location: "O'zbekiston",
-  experience: '2+ yil',
+  bio: "I'm a passionate developer building diverse projects — from Telegram bots to modern web applications. Experienced in Node.js, React, and Python. Always eager to learn new technologies and create meaningful products.",
+  location: 'Uzbekistan',
+  experience: '2+ years',
 };
