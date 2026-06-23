@@ -54,23 +54,6 @@ export const projects = [
     ],
   },
   {
-    id: 'math-bot',
-    name: 'Math Bot',
-    category: 'Telegram Botlar',
-    type: 'story',
-    description: "Matematika o'rganish boti. Interaktiv mashqlar, testlar va natijalarni kuzatish. Turli qiyinlik darajalari mavjud.",
-    tags: ['Node.js', 'Telegram', 'SQLite'],
-    tagClasses: ['node', 'telegram', 'node'],
-    icon: '🔢',
-    gradient: 'linear-gradient(135deg, #4facfe, #00f2fe)',
-    props: [
-      { name: 'platform', type: 'string', value: 'Telegram' },
-      { name: 'language', type: 'string', value: 'JavaScript (Node.js)' },
-      { name: 'database', type: 'string', value: 'SQLite' },
-      { name: 'status', type: 'enum', value: 'Active ✅' },
-    ],
-  },
-  {
     id: 'portfolio-site',
     name: 'Portfolio Website',
     category: 'Web Loyihalar',
